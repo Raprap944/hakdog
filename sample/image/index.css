@@ -1,0 +1,476 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+}
+.shape-with-text,
+.shape-with-text1 {
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-goldenrod);
+  width: 1800px;
+  height: 1200px;
+  margin-top: 100px;
+  margin-left: 220px;
+  overflow: hidden;
+}
+.shape-with-text1 {
+  background-color: var(--color-white);
+  height: 128px;
+}
+.span {
+  color: #e6e6e6;
+}
+.sign-up {
+  color: var(--color-black);
+}
+.online-shopping-platform,
+.techshop,
+.techshop-sign-up-container {
+  position: absolute;
+  top: 110px;
+  left: 680px;
+  font-size: var(--font-size-45xl);
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  display: inline-block;
+  width: 850px;
+  height: 83px;
+  mix-blend-mode: normal;
+  color: var(--color-goldenrod);
+}
+.online-shopping-platform,
+.techshop {
+  top: 908px;
+  left: 600px;
+  color: var(--color-white);
+  width: 309px;
+}
+.online-shopping-platform {
+  top: 1002px;
+  left: 451px;
+  font-size: var(--font-size-29xl);
+  width: 606px;
+  height: 91px;
+}
+.shape-with-text2,
+.shape-with-text3 {
+  position: relative;
+  border-radius: var(--br-7xs);
+}
+.shape-with-text2 {
+  width: 112px;
+  height: 112px;
+  object-fit: cover;
+}
+.shape-with-text3 {
+  background-color: var(--color-white);
+  width: 1504px;
+  height: 331px;
+}
+.customer-service,
+.help-center {
+  position: absolute;
+  left: 460px;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  display: inline-block;
+}
+.customer-service {
+  top: 1469.73px;
+  width: 176px;
+}
+.help-center {
+  top: 1499.73px;
+}
+.help-center,
+.return-refund,
+.vouchers {
+  font-weight: 500;
+  width: 160px;
+}
+.return-refund {
+  position: absolute;
+  top: 1529.73px;
+  left: 460px;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  display: inline-block;
+}
+.vouchers {
+  top: 1559.73px;
+}
+.about-techshop,
+.contact-us,
+.payment-methods,
+.vouchers {
+  position: absolute;
+  left: 460px;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  display: inline-block;
+}
+.payment-methods {
+  top: 1589.73px;
+  font-weight: 500;
+  width: 176px;
+}
+.about-techshop,
+.contact-us {
+  top: 1619.73px;
+  width: 160px;
+}
+.about-techshop {
+  top: 1469.73px;
+  left: 1076px;
+  font-family: var(--font-raleway);
+  width: 176px;
+}
+.about-us,
+.follow-us,
+.privacy-policy,
+.seller-centre,
+.techmall {
+  position: absolute;
+  top: 1499.73px;
+  left: 1077px;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  display: inline-block;
+  width: 160px;
+}
+.follow-us,
+.privacy-policy,
+.seller-centre,
+.techmall {
+  top: 1529.73px;
+  left: 1076px;
+}
+.follow-us,
+.seller-centre,
+.techmall {
+  top: 1559.73px;
+}
+.follow-us,
+.seller-centre {
+  top: 1589.73px;
+  left: 1077px;
+}
+.follow-us {
+  top: 1469.73px;
+  left: 1692px;
+  width: 176px;
+}
+.facebook {
+  top: 1499.73px;
+}
+.facebook,
+.instagram,
+.twitter {
+  position: absolute;
+  left: 1708px;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  display: inline-block;
+  width: 160px;
+}
+.twitter {
+  top: 1529.73px;
+  font-weight: 500;
+}
+.instagram {
+  top: 1559.73px;
+}
+.icons-funcational-common,
+.icons-funcational-common1,
+.icons-funcational-common2 {
+  position: absolute;
+  top: 1503px;
+  left: 1684px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.icons-funcational-common1,
+.icons-funcational-common2 {
+  top: 1533px;
+}
+.icons-funcational-common2 {
+  top: 1563px;
+}
+.sign-up-main-page-child,
+.sign-up-main-page-item {
+  position: absolute;
+  top: 97px;
+  left: 551px;
+  width: 115px;
+  height: 106px;
+  object-fit: cover;
+}
+.sign-up-main-page-item {
+  top: 457px;
+  left: 505px;
+  width: 498px;
+  height: 440px;
+}
+.sign-up-main-page-inner {
+  position: absolute;
+  top: 333px;
+  left: 1167px;
+  border-radius: 19px;
+  background-color: var(--color-white);
+  width: 673px;
+  height: 928px;
+}
+.sign-up1 {
+  position: absolute;
+  top: 357px;
+  left: 1216px;
+  font-size: var(--font-size-29xl);
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  display: inline-block;
+  width: 184px;
+  height: 79px;
+}
+.line-div {
+  position: absolute;
+  top: 504.5px;
+  left: 1237.5px;
+  border-top: 3px solid var(--color-black);
+  box-sizing: border-box;
+  width: 532px;
+  height: 3px;
+}
+.sign-up-main-page-child1,
+.sign-up-main-page-child2,
+.sign-up-main-page-child3 {
+  position: absolute;
+  top: 796.5px;
+  left: 1238.5px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 218px;
+  height: 1px;
+}
+.sign-up-main-page-child2,
+.sign-up-main-page-child3 {
+  left: 1550.5px;
+}
+.sign-up-main-page-child3 {
+  top: 570.5px;
+  left: 1237.5px;
+  border-top: 3px solid var(--color-black);
+  width: 532px;
+  height: 3px;
+}
+.sign-up-main-page-child4,
+.sign-up-main-page-child5 {
+  position: absolute;
+  top: 504.5px;
+  left: 1237.5px;
+  border-right: 3px solid var(--color-black);
+  box-sizing: border-box;
+  width: 3px;
+  height: 69px;
+}
+.sign-up-main-page-child5 {
+  left: 1766.5px;
+}
+.phone-number {
+  position: absolute;
+  top: 480px;
+  left: 1220px;
+  font-size: 33px;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  width: 1713px;
+  height: 3323px;
+  z-index: 1;
+}
+
+.phone-number input {
+  width: 520px;
+  height: 80px;
+  font-size: 1.8rem;
+  padding: 0 20px;
+}
+
+.nxtBtn {
+  width: 370px;
+  height: 70px;
+  position: absolute;
+  top: 597px;
+  left: 1311px;
+  z-index: 1;
+  cursor: pointer;
+  font-size: 1.8rem;
+  background-color: var(--color-goldenrod);
+  color: white;
+  border: none;
+  transition: all .2s ease-in-out;
+}
+
+.nxtBtn:hover {
+  transform: scale(1);
+}
+
+.nxtBtn:active {
+  transform: scale(1);
+}
+
+.form-group {
+  position: relative;
+  top: 200px;
+  left: 1000px;
+  z-index: 1;
+}
+
+.form-group input {
+  width: 1000px;
+  height: 100px;
+}
+.rectangle-div {
+  position: absolute;
+  top: 597px;
+  left: 1311px;
+  background-color: var(--color-goldenrod);
+  width: 386px;
+  height: 87px;
+}
+.next,
+.or {
+  position: absolute;
+  top: 607px;
+  left: 1446px;
+  font-size: 40px;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  display: inline-block;
+  width: 115px;
+  height: 47px;
+}
+.or {
+  top: 778px;
+  left: 1482px;
+  font-size: 28px;
+  color: var(--color-black);
+  width: 44px;
+  height: 27px;
+}
+.sign-up-main-page-child6,
+.sign-up-main-page-child7 {
+  position: absolute;
+  top: 866px;
+  left: 1216px;
+  background-color: var(--color-goldenrod);
+  width: 266px;
+  height: 62px;
+}
+.sign-up-main-page-child7 {
+  left: 1515px;
+  width: 272px;
+}
+.google {
+  position: absolute;
+  top: 867px;
+  left: 1606px;
+  font-size: 34px;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 171px;
+  height: 62px;
+}
+.facebook-logo-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4000px;
+  height: 2541px;
+}
+.rectangle-icon,
+.sign-up-main-page-child8 {
+  position: absolute;
+  top: 866px;
+  left: 1551px;
+  width: 55px;
+  height: 61px;
+  object-fit: cover;
+}
+.sign-up-main-page-child8 {
+  left: 1250px;
+}
+.terms-of-service {
+  color: var(--color-firebrick);
+}
+.by-signing-up-container,
+.have-an-account-container {
+  position: absolute;
+  top: 950px;
+  left: 1311px;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+  font-family: var(--font-poppins);
+  text-align: center;
+  display: inline-block;
+  width: 386px;
+  height: 98px;
+  color: var(--color-black);
+}
+.have-an-account-container {
+  top: 1074px;
+}
+.facebook-logo-2,
+.facebook-logo-5,
+.facebook1 {
+  position: absolute;
+  top: 20px;
+  left: 1606px;
+  width: 4000px;
+  height: 2541px;
+}
+.facebook-logo-5,
+.facebook1 {
+  top: 0;
+  left: 1587px;
+}
+.facebook1 {
+  top: 885px;
+  left: 1311px;
+  font-size: 30px;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 171px;
+  height: 33px;
+}
+.sign-up-main-page {
+  position: relative;
+  width: 100%;
+  height: 1842px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray);
+  font-family: var(--font-inter);
+}
